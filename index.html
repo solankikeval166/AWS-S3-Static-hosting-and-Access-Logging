@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWS S3 Static Website Hosting</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        height: 100%; /* Ensure full height */
+      }
+      body {
+        background-color: #f0f8ff; /* Background color */
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+      }
+      .main-container {
+        text-align: center;
+        padding: 50px;
+        flex: 1; /* Allow this section to expand and fill available space */
+      }
+      .main-container p {
+        font-size: 3rem;
+        font-weight: 379;
+      }
+      .main-container .paragraph {
+        font-size: 1.5rem;
+        padding: 25px;
+      }
+      .header {
+        padding: 20px;
+        text-align: center;
+        background-color: #9dddac;
+      }
+      .header h1 {
+        font-weight: 500;
+        color: #2e8b57; /* Header text color */
+      }
+      .footer {
+        font-size: 1rem;
+        text-align: center;
+        background-color: #9dddac;
+        padding: 10px;
+      }
+      .footer .footer-copyright {
+        margin: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="display-5"><u>AWS S3 Static Website Hosting & Logging</u> </h1>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-container">
+      <p class="lead">Welcome to our simple webpage.</p>
+      <p class="lead paragraph">
+        This is an example demo for static website hosting and access logging on
+        AWS using Simple Storage Service (S3).
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-copyright">
+        <b> &copy; This template is created by Keval Solanki (21CE137)</b>
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
